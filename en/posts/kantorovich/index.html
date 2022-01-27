@@ -1,4 +1,4 @@
-<!doctype html><html lang=en dir=ltr><meta charset=utf-8>
+<!doctype html><html lang=en><meta charset=utf-8>
 <meta name=viewport content="width=device-width">
 <title>Kantorovich inequality | Tom M. Ragonneau</title>
 <meta name=generator content="Hugo Eureka 0.8.4">
@@ -32,18 +32,18 @@
 <meta property="article:modified_time" content="2022-01-04T22:45:45+08:00">
 <meta property="article:section" content="posts">
 <body class="flex flex-col min-h-screen">
-<header class="fixed flex items-center w-full min-h-16 ps-scrollbar z-50 bg-secondary-bg shadow-sm">
+<header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
 <div class="w-full max-w-screen-xl mx-auto"><script>let storageColorScheme=localStorage.getItem("lightDarkMode");(storageColorScheme=='Auto'&&window.matchMedia("(prefers-color-scheme: dark)").matches||storageColorScheme=="Dark")&&document.getElementsByTagName('html')[0].classList.add('dark')</script>
 <nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
-<a href=/en/ class="me-6 text-primary-text text-xl font-bold">Tom M. Ragonneau</a>
+<a href=/en/ class="mr-6 text-primary-text text-xl font-bold">Tom M. Ragonneau</a>
 <button id=navbar-btn class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
 <i class="fas fa-bars"></i>
 </button>
 <div id=target class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
 <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
-<a href=/en/#about class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 border-transparent me-4">About</a>
-<a href=/en/documents/cv.pdf class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 border-transparent me-4">Resume</a>
-<a href=/en/posts/ class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 selected-menu-item me-4">Posts</a>
+<a href=/en/#about class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 border-transparent mr-4">About</a>
+<a href=/en/documents/cv.pdf class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 border-transparent mr-4">Resume</a>
+<a href=/en/posts/ class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 selected-menu-item mr-4">Posts</a>
 </div>
 <div class=flex>
 <div class="relative pt-4 md:pt-0">
@@ -52,7 +52,7 @@
 </div>
 <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id=is-open>
 </div>
-<div class="absolute flex flex-col start-0 md:start-auto end-auto md:end-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40" id=lightDarkOptions>
+<div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40" id=lightDarkOptions>
 <span class="px-4 py-1 hover:text-eureka" name=Light>Light</span>
 <span class="px-4 py-1 hover:text-eureka" name=Dark>Dark</span>
 <span class="px-4 py-1 hover:text-eureka" name=Auto>Auto</span>
@@ -67,22 +67,22 @@
 </div>
 </header>
 <main class="flex-grow pt-16">
-<div class=ps-scrollbar>
+<div class=pl-scrollbar>
 <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
 <div class="grid grid-cols-2 lg:grid-cols-8 gap-4 lg:pt-12">
 <div class="col-span-2 lg:col-span-6 bg-secondary-bg rounded px-6 py-8">
 <h1 class="font-bold text-3xl text-primary-text">Kantorovich inequality</h1>
 <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
-<div class="me-6 my-2">
-<i class="fas fa-calendar me-1"></i>
+<div class="mr-6 my-2">
+<i class="fas fa-calendar mr-1"></i>
 <span>2022-01-04</span>
 </div>
-<div class="me-6 my-2">
-<i class="fas fa-clock me-1"></i>
-<span>4 mins read</span>
+<div class="mr-6 my-2">
+<i class="fas fa-clock mr-1"></i>
+<span>4 min read</span>
 </div>
-<div class="me-6 my-2">
-<i class="fas fa-th-list me-1"></i>
+<div class="mr-6 my-2">
+<i class="fas fa-th-list mr-1"></i>
 <a href=https://www.ragonneau.co/en/series/algebra/ class=hover:text-eureka>Algebra</a>
 </div>
 </div>
@@ -163,25 +163,25 @@ that is, the Kantorovich inequality.
 </div>
 <div class="flex md:justify-end my-4">
 <a href=https://github.com/ragonneau/ragonneau.co/blob/main/content/en/posts/kantorovich.md title="Edit this page">
-<i class="fas fa-edit me-1"></i>
+<i class="fas fa-edit mr-1"></i>
 <span>Edit this page</span>
 </a>
 </div>
 <div class=py-2>
 <div class="flex flex-col md:flex-row items-center my-8">
-<a href=https://www.ragonneau.co/en/authors/ragonneau/ class="w-24 h-24 md:me-4">
+<a href=https://www.ragonneau.co/en/authors/ragonneau/ class="w-24 h-24 md:mr-4">
 <img src=https://www.ragonneau.co/images/avatar.png class="w-full bg-primary-bg rounded-full" alt=Avatar>
 </a>
 <div class="w-full md:w-auto mt-4 md:mt-0">
 <a href=https://www.ragonneau.co/en/authors/ragonneau/ class="block font-bold text-lg pb-1 mb-2 border-b">Tom M. Ragonneau</a>
 <span class="block pb-2">Actively developing software for derivative-free optimization.</span>
-<a href=mailto:tom.ragonneau@connect.polyu.hk class=me-1>
+<a href=mailto:tom.ragonneau@connect.polyu.hk class=mr-1>
 <i class="fas fa-envelope"></i>
 </a>
-<a href=https://github.com/ragonneau/ class=me-1>
+<a href=https://github.com/ragonneau/ class=mr-1>
 <i class="fab fa-github"></i>
 </a>
-<a href=https://wa.me/+85269957651 class=me-1>
+<a href=https://wa.me/+85269957651 class=mr-1>
 <i class="fab fa-whatsapp"></i>
 </a>
 </div>
@@ -216,7 +216,7 @@ that is, the Kantorovich inequality.
 </div>
 </div>
 </main>
-<footer class=ps-scrollbar>
+<footer class=pl-scrollbar>
 <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
 <p class="text-sm text-tertiary-text">&copy; 2021&ndash;2022 <a href=https://ragonneau.github.io/>Tom M. Ragonneau</a>
 &#183; Powered by the <a href=https://github.com/wangchucheng/hugo-eureka class=hover:text-eureka>Eureka</a> theme for <a href=https://gohugo.io class=hover:text-eureka>Hugo</a></p>
