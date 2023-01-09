@@ -18,25 +18,25 @@
 <a href=https://www.tomragonneau.com/en/categories/algebra/ class=hover:text-eureka>Algebra</a></div></div><p>Let $A \in \mathbb{R}^{n \times n}$ be a given symmetric positive definite matrix and denote its eigenvalues $\lambda_1 \le \lambda_2 \le \dots \le \lambda_n$.
 The Kantorovich inequality states that for all vector $x \in \mathbb{R}^n$ of unit norm, we have
 $$ \langle x, A x \rangle \langle x, A^{-1} x \rangle \le \frac{(\lambda_1 + \lambda_n)^2}{4 \lambda_1 \lambda_n}.$$
-Such an inequality is widely used in convergence analysis (e.g., the convergence rate of the <a href=https://en.wikipedia.org/wiki/Gradient_descent>steepest descent method</a> can be derived from the Kantorovich inequality).</p><h2 id=a-proof-based-on-probability-theory>A proof based on probability theory</h2><p>We first state three lemmas on which we will base our proof.</p><p><strong>Lemma 1.</strong>
+Such an inequality is widely used in convergence analysis (e.g., the convergence rate of the <a href=https://en.wikipedia.org/wiki/Gradient_descent>steepest descent method</a> can be derived from the Kantorovich inequality).</p><h2 id=a-proof-based-on-probability-theory>A proof based on probability theory</h2><p>We first state three lemmas on which we will base our proof.</p><blockquote><strong>Lemma 1.</strong>
 Let $X$ and $Y$ be two jointly distributed real-valued random variables with finite second-order moments.
 Then
-$$\mathbb{E}[X] \mathbb{E}[Y] \le \mathbb{E}[XY] + \sqrt{\operatorname{Var}[X] \operatorname{Var}[Y]}.$$</p><p><em>Proof.</em> The Cauchy-Schwarz inequality provides</p><div>\[\begin{aligned}
+$$\mathbb{E}[X] \mathbb{E}[Y] \le \mathbb{E}[XY] + \sqrt{\operatorname{Var}[X] \operatorname{Var}[Y]}.$$</blockquote><p><em>Proof.</em> The Cauchy-Schwarz inequality provides</p><div>\[\begin{aligned}
 \operatorname{Var}[X] \operatorname{Var}[Y]
 & = \mathbb{E}[(X - \mathbb{E}[X])^2] \mathbb{E}[(Y - \mathbb{E}[Y])^2] \\
 & \ge \mathbb{E}[(X - \mathbb{E}[X])(Y - \mathbb{E}[Y])]^2 \\
 & = \operatorname{Cov}[X, Y]^2.
-   \end{aligned}\]</div>The result follows $\operatorname{Cov}[X, Y] = \mathbb{E}[XY] - \mathbb{E}[X] \mathbb{E}[Y]$.<p><strong>Lemma 2.</strong> <em>(Popoviciu’s inequality)</em>
+   \end{aligned}\]</div>The result follows $\operatorname{Cov}[X, Y] = \mathbb{E}[XY] - \mathbb{E}[X] \mathbb{E}[Y]$.<blockquote><strong>Lemma 2.</strong> (Popoviciu’s inequality)
 Let $X$ be a real-valued random variable taking values in $[\alpha, \beta]$, with $\alpha \le \beta$.
 Then
-$$\operatorname{Var}[X] \le \frac{(\beta - \alpha)^2}{4}.$$</p><p><em>Proof.</em> Let $\varphi$ be the univariate function defined by $\varphi(t) = \mathbb{E}[(X - t)^2]$.
+$$\operatorname{Var}[X] \le \frac{(\beta - \alpha)^2}{4}.$$</blockquote><p><em>Proof.</em> Let $\varphi$ be the univariate function defined by $\varphi(t) = \mathbb{E}[(X - t)^2]$.
 It easily reaches its minimum at $t = \mathbb{E}[X]$, so that
 $$\operatorname{Var}[X] = \varphi(\mathbb{E}[X]) \le \varphi \bigg(\frac{\alpha + \beta}{2}\bigg) = \frac{\mathbb{E}[(2X - \alpha - \beta)^2]}{4}.$$
 Remarking that $X - \alpha \ge 0$ and $X - \beta \le 0$, we thus have
-$$\operatorname{Var}[X] \le \frac{\mathbb{E}[(X - \alpha - (X - \beta))^2]}{4} = \frac{(\beta - \alpha)^2}{4}.$$</p><p><strong>Lemma 3.</strong>
-Let $X$ be a real-valued random variable taking values in $[\alpha, \beta]$, with $0 &lt; \alpha \le \beta$.
+$$\operatorname{Var}[X] \le \frac{\mathbb{E}[(X - \alpha - (X - \beta))^2]}{4} = \frac{(\beta - \alpha)^2}{4}.$$</p><blockquote><strong>Lemma 3.</strong>
+Let $X$ be a real-valued random variable taking values in $[\alpha, \beta]$, with $0 < \alpha \le \beta$.
 Then
-$$\mathbb{E}[X] \mathbb{E}[X^{-1}] \le \frac{(\alpha + \beta)^2}{4 \alpha \beta}.$$</p><p><em>Proof.</em> Lemmas 1 and 2 together provide</p><div>\[\begin{aligned}
+$$\mathbb{E}[X] \mathbb{E}[X^{-1}] \le \frac{(\alpha + \beta)^2}{4 \alpha \beta}.$$</blockquote><p><em>Proof.</em> Lemmas 1 and 2 together provide</p><div>\[\begin{aligned}
 \mathbb{E}[X] \mathbb{E}[X^{-1}]
 & \le \mathbb{E}[XX^{-1}] + \sqrt{\operatorname{Var}[X] \operatorname{Var}[X^{-1}]} \\
 & \le 1 + \sqrt{\frac{(\beta - \alpha)^2 (\alpha^{-1} - \beta^{-1})^2}{16}} \\
