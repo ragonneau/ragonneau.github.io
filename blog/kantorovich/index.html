@@ -13,14 +13,13 @@ Then
 $$\operatorname{Var}[X] \le \frac{(\beta - \alpha)^2}{4}.$$</p></blockquote><p><em>Proof.</em>
 Let $\varphi$ be the univariate function defined by $\varphi(t) = \mathbb{E}[(X - t)^2]$.
 It easily reaches its minimum at $t = \mathbb{E}[X]$, so that
-$$\operatorname{Var}[X] = \varphi(\mathbb{E}[X]) \le \varphi \bigg(\frac{\alpha + \beta}{2}\bigg).$$
-Remarking that $X - \alpha \ge 0$ and $X - \beta \le 0$, we thus have
-$$\operatorname{Var}[X] \le \frac{\mathbb{E}[(X - \alpha - (X - \beta))^2]}{4} = \frac{(\beta - \alpha)^2}{4}.$$</p><blockquote><p><strong>Lemma 3.</strong>
+$$\operatorname{Var}[X] = \varphi(\mathbb{E}[X]) \le \varphi \bigg(\frac{\alpha + \beta}{2}\bigg) = \frac{\mathbb{E}[(2X - \alpha - \beta)^2]}{4}.$$
+Remarking that $X - \alpha \ge 0$ and $X - \beta \le 0$, we thus obtain the desired result.</p><blockquote><p><strong>Lemma 3.</strong>
 Let $X$ be a real-valued random variable taking values in $[\alpha, \beta]$, with $0 &lt; \alpha \le \beta$.
 Then
 $$\mathbb{E}[X] \mathbb{E}[X^{-1}] \le \frac{(\alpha + \beta)^2}{4 \alpha \beta}.$$</p></blockquote><p><em>Proof.</em>
 Lemmas 1 and 2 together provide
-$$\mathbb{E}[X] \mathbb{E}[X^{-1}] \le \mathbb{E}[XX^{-1}] + \sqrt{\operatorname{Var}[X] \operatorname{Var}[X^{-1}]} = \frac{(\alpha + \beta)^2}{4 \alpha \beta}.$$</p><p>We are now ready to prove the Kantorovich inequality.
+$$\mathbb{E}[X] \mathbb{E}[X^{-1}] \le \mathbb{E}[XX^{-1}] + \sqrt{\operatorname{Var}[X] \operatorname{Var}[X^{-1}]} \le 1 + \sqrt{\frac{(\beta - \alpha)^2 (\alpha^{-1} - \beta^{-1})^2}{16}} = \frac{(\alpha + \beta)^2}{4 \alpha \beta}.$$</p><p>We are now ready to prove the Kantorovich inequality.
 We let $x \in \mathbb{R}^n$ be any vector of unit norm.
 Since $A$ is symmetric positive definite, it admits an eigendecomposition $A = Q \Lambda Q^{\mathsf{T}}$ with $Q \in \mathbb{R}^{n \times n}$ an orthogonal matrix and $\Lambda = \operatorname{diag} \{ \lambda_1, \dots, \lambda_n \}$.
 We then have
@@ -33,10 +32,7 @@ which concludes our proof of the Kantorovich inequality based on probability the
 The minimum of $\varphi$ is reached at $t = \sqrt{\langle x, A^{-1} x \rangle \langle x, A x \rangle^{-1}}$, providing
 $$\sqrt{\langle x, A x \rangle \langle x, A^{-1} x \rangle} \le \frac{1}{2} \langle x, (t A + t^{-1} A^{-1}) x \rangle.$$
 According to the Courant-Fischer theorem, we have
-$$
-\sqrt{\langle x, A x \rangle \langle x, A^{-1} x \rangle}
-\le \frac{1}{2} \max_{i = 1, 2, \dots, n} (t \lambda_i + t^{-1} \lambda_i^{-1})
-$$
+$$\sqrt{\langle x, A x \rangle \langle x, A^{-1} x \rangle} \le \frac{1}{2} \max_{i = 1, 2, \dots, n} (t \lambda_i + t^{-1} \lambda_i^{-1}) = \frac{1}{2} \max \{ t \lambda_1 + t^{-1} \lambda_1^{-1}, t \lambda_n + t^{-1} \lambda_n^{-1} \}.$$
 The evaluation of the above right-hand side at $t = 1 / \sqrt{\lambda_1 \lambda_n}$ provides
 $$ \sqrt{\langle x, A x \rangle \langle x, A^{-1} x \rangle} \le \frac{\lambda_1 + \lambda_n}{2 \sqrt{\lambda_1 \lambda_n}},$$
 which concludes our proof of the Kantorovich inequality based on optimization theory.</p></div><footer class=post__footer><div class="post__tags tags clearfix"><svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5.0 11V3C0 1.5.8.8.8.8S1.5.0 3 0h8c1.5.0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 100-6 3 3 0 000 6z"/></svg><ul class=tags__list><li class=tags__item><a class="tags__link btn" href=/tags/algebra/ rel=tag>Algebra</a></li><li class=tags__item><a class="tags__link btn" href=/tags/optimization/ rel=tag>Optimization</a></li></ul></div></footer></article></main><script src=https://utteranc.es/client.js repo=ragonneau/tomragonneau.com issue-term=pathname theme=github-light crossorigin=anonymous async></script></div><aside class=sidebar><div class="widget-search widget"><form class=widget-search__form role=search method=get action=https://google.com/search><label><input class=widget-search__field type=search placeholder=SEARCH… name=q aria-label=SEARCH…></label>
