@@ -1,0 +1,68 @@
+baseURL = "https://www.tomragonneau.com/"
+googleAnalytics = "G-2H4BLSVHX1"
+languageCode = "en-us"
+paginate = "10"
+theme = "mainroad"
+title = "Tom M. Ragonneau"
+
+[[menus.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menus.main]]
+name = "Resume"
+url = "/documents/cv.pdf"
+weight = 2
+
+[params]
+customCSS = ["css/ragonneau.css"]
+description = "Tom M. Ragonneau's personal website"
+mainSections = ["blog", "software"]
+mathjax = true
+post_meta = ["author", "date", "categories", "translations"]
+
+[params.logo]
+image = "img/ragonneau.png"
+title = "Tom M. Ragonneau"
+subtitle = "Postdoctoral Fellow"
+
+[params.sidebar]
+home = "right"
+list = "right"
+single = "right"
+widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+[params.style.vars]
+highlightColor = "#478778"
+
+[params.thumbnail]
+visibility = ["list"]
+
+[params.widgets]
+recent_num = 5
+
+[[params.widgets.social.custom]]
+title = "tom.ragonneau@polyu.edu.hk"
+url = "mailto:tom.ragonneau@polyu.edu.hk"
+icon = "svg/email.svg"
+
+[[params.widgets.social.custom]]
+title = "GitHub"
+url = "https://github.com/ragonneau"
+icon = "svg/github.svg"
+
+[[params.widgets.social.custom]]
+title = "LinkedIn"
+url = "https://linkedin.com/in/tom-m-ragonneau-11958a12b"
+icon = "svg/linkedin.svg"
+
+[[params.widgets.social.custom]]
+title = "ORCID"
+url = "https://orcid.org/0000-0003-2717-2876"
+icon = "svg/orcid.svg"
+
+[[params.widgets.social.custom]]
+title = "ResarchGate"
+url = "https://www.researchgate.net/profile/Tom-Ragonneau"
+icon = "svg/researchgate.svg"
