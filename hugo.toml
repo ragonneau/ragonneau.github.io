@@ -1,9 +1,9 @@
 baseURL = "https://www.tomragonneau.com/"
-googleAnalytics = "G-2H4BLSVHX1"
+title = "Tom M. Ragonneau"
 languageCode = "en-us"
 paginate = "10"
 theme = "mainroad"
-title = "Tom M. Ragonneau"
+googleAnalytics = "G-2H4BLSVHX1"
 
 [[menus.main]]
 name = "Home"
@@ -34,7 +34,7 @@ single = "right"
 widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
 
 [params.style.vars]
-highlightColor = "#478778"
+highlightColor = "#52648e"
 
 [params.thumbnail]
 visibility = ["list"]
