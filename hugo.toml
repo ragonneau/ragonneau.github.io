@@ -31,7 +31,7 @@ subtitle = "Postdoctoral Fellow"
 home = "right"
 list = "right"
 single = "right"
-widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+widgets = ["recent", "categories", "taglist", "social", "languages"]
 
 [params.style.vars]
 highlightColor = "#52648e"
