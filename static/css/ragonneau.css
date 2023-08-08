@@ -1,5 +1,10 @@
 .logo__img {
     border-radius: 50%;
+    border: 2px solid #2a2a2a;
+}
+
+.btn, .tags__badge, .tags__item {
+    border-radius: 5px;
 }
 
 .MathJax_Display {
