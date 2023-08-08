@@ -7,6 +7,30 @@
     border-radius: 5px;
 }
 
+.footer__copyright {
+    -webkit-flex: 1 0 65.83%;
+    flex: 1 0 65.83%;
+    -webkit-order: 1;
+    order: 1;
+    min-width: 0;
+}
+
+.footer__license {
+    -webkit-flex: 1 0 31.66%;
+    flex: 1 0 31.66%;
+    -webkit-order: 2;
+    order: 2;
+    min-width: 0;
+    text-align: right;
+    margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .footer__license {
+        text-align: center;
+    }
+}
+
 .MathJax_Display {
     overflow-x: auto;
     overflow-y: hidden;
