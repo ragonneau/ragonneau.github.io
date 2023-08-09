@@ -1,11 +1,11 @@
+/* Customized header */
+
 .logo__img {
     border-radius: 50%;
     border: 2px solid #2a2a2a;
 }
 
-.btn, .tags__badge, .tags__item {
-    border-radius: 5px;
-}
+/* Customized footer to include a license */
 
 .footer__copyright {
     -webkit-flex: 1 0 65.83%;
@@ -30,6 +30,14 @@
         text-align: center;
     }
 }
+
+/* Rounded corners for badges */
+
+.btn, .tags__badge, .tags__item {
+    border-radius: 5px;
+}
+
+/* Horizontal scrollbar for long equations */
 
 .MathJax_Display {
     overflow-x: auto;
