@@ -19,6 +19,7 @@ My research interests include [mathematical optimization](https://en.wikipedia.o
   - Thesis titled "[Model-Based Derivative-Free Optimization Methods and Software](/documents/thesis.pdf)."
 - MSc in [Performance in Software, Media and Scientific Computing](https://www.enseeiht.fr/fr/formation/masters/performance-in-software-media-and-scientific-computing-psmsc.html), [University of Toulouse](https://en.univ-toulouse.fr), Toulouse, France, 2018--2019
 - MEng in High Performance Computing and Big Data, Department of Computer Science and Applied Mathematics, [Toulouse INP-ENSEEIHT](https://www.enseeiht.fr/en/index.html), Toulouse, France, 2016--2019.
+- [Preparatory classes for entrance into Grandes Écoles](https://en.wikipedia.org/wiki/Classe_préparatoire_aux_grandes_écoles) (Mathematics and Physics), [Lycée Carnot](https://citescocarnot.ac-dijon.fr), Dijon, France, 2014--2016.
 
 ## Work experience
 
