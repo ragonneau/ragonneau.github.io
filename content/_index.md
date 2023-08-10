@@ -13,7 +13,7 @@ My research interests include [mathematical optimization](https://en.wikipedia.o
 
 ## Education
 
-- PhD in Applied Mathematics, [Department of Applied Mathematics](https://www.polyu.edu.hk/ama/), [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), Hong Kong SAR, China, 2019--2022.
+- PhD in Applied Mathematics, [Department of Applied Mathematics](https://www.polyu.edu.hk/ama/), [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), Hong Kong, China, 2019--2022.
   - Co-supervised by Dr. [Zaikun Zhang](https://www.zhangzk.net) and Prof. [Xiaojun Chen](https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm).
   - Funded by the [Research Grants Committee](https://www.ugc.edu.hk/eng/rgc/) of Hong Kong under the [Hong Kong PhD Fellowship Scheme](https://cerg1.ugc.edu.hk/hkpfs/index.html).
   - Thesis titled "[Model-Based Derivative-Free Optimization Methods and Software](/documents/thesis.pdf)."
@@ -22,6 +22,6 @@ My research interests include [mathematical optimization](https://en.wikipedia.o
 
 ## Work experience
 
-- Postdoctoral Fellow of the [CAS AMSS-PolyU Joint Laboratory of Applied Mathematics](https://www.polyu.edu.hk/en/ama/research-and-consultancy/cas-amss-polyu-jlab/), [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), Hong Kong SAR, China, since 2023.
-- Research Associate at the [Department of Applied Mathematics](https://www.polyu.edu.hk/ama/), [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), Hong Kong SAR, China, 2022--2023.
-- Research Assistant at the [Department of Applied Mathematics](https://www.polyu.edu.hk/ama/), [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), Hong Kong SAR, China, 2019.
+- Postdoctoral Fellow of the [CAS AMSS-PolyU Joint Laboratory of Applied Mathematics](https://www.polyu.edu.hk/en/ama/research-and-consultancy/cas-amss-polyu-jlab/), [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), Hong Kong, China, since 2023.
+- Research Associate at the [Department of Applied Mathematics](https://www.polyu.edu.hk/ama/), [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), Hong Kong, China, 2022--2023.
+- Research Assistant at the [Department of Applied Mathematics](https://www.polyu.edu.hk/ama/), [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), Hong Kong, China, 2019.
