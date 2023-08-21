@@ -9,7 +9,7 @@ This is a list of the talks I will give and have given, with the corresponding s
 
 ## Future talks
 
-- [The 25th International Symposium on Mathematical Programming (ISMP2024)](https://ismp2024.gerad.ca/), Montréal, Canada, 2024.
+- [The 25th International Symposium on Mathematical Programming](https://ismp2024.gerad.ca/), Montréal, Canada, 2024.
 - [The 2nd Derivative-Free Optimization Symposium](https://sites.google.com/diag.uniroma1.it/dfos24), Padova, Italy, 2024.
 
 ## 2023
