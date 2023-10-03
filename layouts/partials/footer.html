@@ -3,15 +3,7 @@
 		{{ partial "footer_links.html" . }}
 		<div class="footer__copyright">
 			&copy; 2022&ndash;{{ now.Format "2006" }} {{ .Site.Params.copyright | default .Site.Title }}.
-			{{ T "footer_credits" | safeHTML }}<br/>
-			This work is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1">Attribution-ShareAlike 4.0 International</a>.
-		</div>
-		<div class="footer__license">
-			<a href="http://creativecommons.org/licenses/by-sa/4.0/">
-				<img style="height:28px!important;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1">
-				<img style="height:28px!important;margin-left:3px;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1">
-				<img style="height:28px!important;margin-left:3px;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">
-			</a>
+			<span class="footer__copyright-credits">{{ T "footer_credits" | safeHTML }}</span>
 		</div>
 	</div>
 </footer>
