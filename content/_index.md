@@ -7,9 +7,7 @@ I recently graduated from the [Department of Applied Mathematics](https://www.po
 
 ## Research overview
 
-My research interests include [mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization) and its applications, especially
-- methods dedicated to [derivative-free optimization](https://en.wikipedia.org/wiki/Derivative-free_optimization), and
-- methods based on inaccurate information.
+My research interests include [mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization) and its applications, especially methods dedicated to [derivative-free optimization](https://en.wikipedia.org/wiki/Derivative-free_optimization).
 
 ## Education
 
