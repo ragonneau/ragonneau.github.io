@@ -3,7 +3,7 @@ title: COBYQA
 summary: Constrained Optimization BY Quadratic Approximations.
 date: 2022-10-21
 categories: [Optimization, Software]
-tags: [DFO, Python]
+tags: [DFO, Methods, Python]
 draft: false
 ---
 
