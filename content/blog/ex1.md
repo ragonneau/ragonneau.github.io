@@ -8,9 +8,12 @@ draft: false
 ---
 
 Dr. [Dongyi Wei](https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/w_20180628175159671361/110443.htm) is an assistant professor at the [School of Mathematical Sciences](https://www.math.pku.edu.cn/en/) of [Peking University](https://english.pku.edu.cn/).
-He recently proposed the following exercise that GPT-4 fails to solve.
-Let $\\{a_1, \dots, a_n\\} \subseteq (-1, 1)$ be given. Show that
-$$\prod_{1 \le i, j \le n} \frac{1 + a_i a_j}{1 - a_i a_j} \ge 1.$$
+He recently proposed the below exercise that GPT-4 fails to solve.
+I propose in this post two solutions, a direct one and another one based on functional analysis.
+
+> **Exercise.**
+> Let $\\{a_1, \dots, a_n\\} \subseteq (-1, 1)$ be given. Show that
+> $$\prod_{1 \le i, j \le n} \frac{1 + a_i a_j}{1 - a_i a_j} \ge 1.$$
 
 ## Direct proof
 

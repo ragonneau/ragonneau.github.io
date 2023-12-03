@@ -1,4 +1,4 @@
-baseURL = "https://www.tomragonneau.com/"
+baseURL = "https://tomragonneau.com/"
 title = "Tom M. Ragonneau"
 languageCode = "en-us"
 paginate = "10"

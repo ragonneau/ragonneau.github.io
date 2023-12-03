@@ -7,6 +7,8 @@ tags: [Algebra]
 draft: false
 ---
 
+In this post, I propose two proofs of the Kantorovich inequality, one based on probability theory and the other one based on optimization theory.
+
 Let $A \in \mathbb{R}^{n \times n}$ be a given symmetric positive definite matrix and denote its eigenvalues $\lambda_1 \le \lambda_2 \le \dots \le \lambda_n$.
 The Kantorovich inequality states that for all vector $x \in \mathbb{R}^n$ of unit norm, we have
 $$ \langle x, A x \rangle \langle x, A^{-1} x \rangle \le \frac{(\lambda_1 + \lambda_n)^2}{4 \lambda_1 \lambda_n}.$$
