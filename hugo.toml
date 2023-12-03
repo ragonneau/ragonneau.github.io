@@ -53,16 +53,16 @@ url = "https://github.com/ragonneau"
 icon = "svg/github.svg"
 
 [[params.widgets.social.custom]]
-title = "LinkedIn"
-url = "https://linkedin.com/in/tom-m-ragonneau-11958a12b"
-icon = "svg/linkedin.svg"
-
-[[params.widgets.social.custom]]
 title = "ORCID"
 url = "https://orcid.org/0000-0003-2717-2876"
 icon = "svg/orcid.svg"
 
 [[params.widgets.social.custom]]
-title = "ResarchGate"
+title = "ResearchGate"
 url = "https://www.researchgate.net/profile/Tom-Ragonneau"
 icon = "svg/researchgate.svg"
+
+[[params.widgets.social.custom]]
+title = "LinkedIn"
+url = "https://linkedin.com/in/tom-m-ragonneau-11958a12b"
+icon = "svg/linkedin.svg"
