@@ -2,6 +2,7 @@
 title: PDFO
 summary: Powell's Derivative-Free Optimization solvers.
 date: 2022-10-21
+lastmod: 2024-01-11
 categories: [Optimization, Software]
 tags: [DFO, Methods, Python, MATLAB, Fortran]
 draft: false
@@ -13,3 +14,4 @@ It includes UOBYQA, NEWUOA, BOBYQA, LINCOA, and COBYLA.
 - A [complete documentation](https://pdfo.net) is available.
 - The source files can be downloaded from [GitHub](https://github.com/pdfo/pdfo).
 - Compiled versions for Python can be installed from [PyPI](https://pypi.org/project/pdfo).
+- A paper introducing the package is available on [arXiv](https://doi.org/10.48550/arXiv.2302.13246).
