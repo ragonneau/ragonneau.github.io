@@ -14,9 +14,9 @@ My research interests include [mathematical optimization](https://en.wikipedia.o
 ## Education
 
 - PhD in Applied Mathematics, [Department of Applied Mathematics](https://www.polyu.edu.hk/ama/), [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), Hong Kong, China, 2019--2022.
-  - Co-supervised by Dr. [Zaikun Zhang](https://www.zhangzk.net) and Prof. [Xiaojun Chen](https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm).
+  - Supervised by Dr. [Zaikun Zhang](https://www.zhangzk.net) and co-supervised by Prof. [Xiaojun Chen](https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm).
   - Supported by the [Research Grants Council](https://www.ugc.edu.hk/eng/rgc/) of Hong Kong under the [Hong Kong PhD Fellowship Scheme](https://cerg1.ugc.edu.hk/hkpfs/index.html).
-  - Thesis titled "[Model-Based Derivative-Free Optimization Methods and Software](https://theses.lib.polyu.edu.hk/handle/200/12294)."
+  - Thesis title: "[Model-Based Derivative-Free Optimization Methods and Software](https://theses.lib.polyu.edu.hk/handle/200/12294)."
 - MSc in [Performance in Software, Media and Scientific Computing](https://www.enseeiht.fr/fr/formation/masters/performance-in-software-media-and-scientific-computing-psmsc.html), [Toulouse INP-ENSEEIHT](https://www.enseeiht.fr/en/index.html), Toulouse, France, 2018--2019.
 - MEng in High Performance Computing and Big Data, Department of Computer Science and Applied Mathematics, [Toulouse INP-ENSEEIHT](https://www.enseeiht.fr/en/index.html), Toulouse, France, 2016--2019.
 - [Preparatory Class for the Grandes Écoles](https://en.wikipedia.org/wiki/Classe_préparatoire_aux_grandes_écoles) (Mathematics and Physics), [Lycée Carnot](https://citescocarnot.ac-dijon.fr), Dijon, France, 2014--2016.
