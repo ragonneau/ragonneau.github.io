@@ -2,7 +2,7 @@
 title: An exercise that GPT-4 fails to solve
 summary: We present an exercise proposed by Dr. Dongyi Wei that GPT-4 fails to solve.
 date: 2023-06-17
-categories: [Numerical analysis]
+categories: [Analysis]
 tags: [Algebra]
 draft: false
 ---

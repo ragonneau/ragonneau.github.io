@@ -2,12 +2,12 @@
 title: Kantorovich inequality
 summary: We provide two proofs of the Kantorovich inequality based on probability and optimization theories.
 date: 2023-06-13
-categories: [Numerical analysis, Optimization]
-tags: [Algebra]
+categories: [Analysis]
+tags: [Probability, Optimization]
 draft: false
 ---
 
-In this post, I propose two proofs of the Kantorovich inequality, one based on probability theory and the other one based on optimization theory.
+In this post, we propose two proofs of the Kantorovich inequality, one based on probability theory and the other one based on optimization theory.
 
 Let $A \in \mathbb{R}^{n \times n}$ be a given symmetric positive definite matrix and denote its eigenvalues $\lambda_1 \le \lambda_2 \le \dots \le \lambda_n$.
 The Kantorovich inequality states that for all vector $x \in \mathbb{R}^n$ of unit norm, we have
