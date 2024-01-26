@@ -42,7 +42,7 @@ We will refer to $\mathcal{T}_X$ as the Alexandrov topology associated with $(X,
 
 > **Theorem.**
 > Let $(X, \le_X)$ and $(Y, \le_Y)$ be two preordered sets.
-> A function $f : X \to Y$ is monotone if and only if $f$ is continuous for the Alexandrov topologies associated with $(X, \le_X)$ and $(Y, \le_Y)$.
+> A function $f \colon X \to Y$ is monotone if and only if $f$ is continuous for the Alexandrov topologies associated with $(X, \le_X)$ and $(Y, \le_Y)$.
 
 The proof of this theorem is straightforward.
 Let $\mathcal{T}_X$ and $\mathcal{T}_Y$ be the Alexandrov topologies associated with $(X, \le_X)$ and $(Y, \le_Y)$, respectively.
