@@ -2,6 +2,7 @@
 title: Monotonicity and continuity
 summary: We show that a function is monotone if and only if it is continuous for some topology.
 date: 2024-01-26
+lastmod: 2024-01-28
 categories: [Topology]
 tags: [Order]
 draft: false
@@ -58,3 +59,12 @@ $$U_x = \\{ y \in Y : f ( x ) \le_Y y \\}.$$
 We then have $f^{-1} ( U_x ) = \\{ x' \in X : f ( x ) \le_Y f ( x' ) \\} \in \mathcal{T}_X$.
 Hence, for all $x' \in X$ such that $x \le_X x'$, we have $f ( x ) \le_Y f ( x' )$.
 Therefore, $f$ is monotone.
+
+## What about univariate real-valued functions?
+
+A natural question arises: what does this theorem say about univariate real-valued functions?
+In other words, what does this mean when $X = Y = \mathbb{R}$ for the usual order in $\mathbb{R}$?
+The definition of monotonous functions corresponds to the usual definition of increasing functions.
+Moreover, the Alexandrov topology associated with $(\mathbb{R}, \le)$ is given by
+$$\mathcal{T}_{\mathbb{R}} = \\{ [x, \infty) : x \in \mathbb{R} \\}.$$
+The theorem states then than increasing functions in $\mathbb{R}$ are continuous for the above topology.
