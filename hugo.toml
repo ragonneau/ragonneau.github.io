@@ -59,10 +59,10 @@ icon = "svg/orcid.svg"
 
 [[params.widgets.social.custom]]
 title = "ResearchGate"
-url = "https://www.researchgate.net/profile/Tom-Ragonneau"
+url = "https://www.researchgate.net/profile/tom-ragonneau"
 icon = "svg/researchgate.svg"
 
 [[params.widgets.social.custom]]
 title = "LinkedIn"
-url = "https://linkedin.com/in/tom-m-ragonneau-11958a12b"
+url = "https://linkedin.com/in/tom-ragonneau"
 icon = "svg/linkedin.svg"
