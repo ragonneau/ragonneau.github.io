@@ -23,6 +23,6 @@ My research interests include [mathematical optimization](https://en.wikipedia.o
 
 ## Work experience
 
-- Postdoctoral Fellow of the [CAS AMSS-PolyU Joint Laboratory of Applied Mathematics](https://www.polyu.edu.hk/en/ama/research-and-consultancy/cas-amss-polyu-jlab/), [Department of Applied Mathematics](https://www.polyu.edu.hk/ama/), [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), Hong Kong, China, since 2023.
+- Postdoctoral Fellow of the [CAS AMSS-PolyU Joint Laboratory of Applied Mathematics](https://www.polyu.edu.hk/en/ama/research-and-consultancy/cas-amss-polyu-jlab/), [Department of Applied Mathematics](https://www.polyu.edu.hk/ama/), [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), Hong Kong, China, 2023--2024.
 - Research Associate at the [Department of Applied Mathematics](https://www.polyu.edu.hk/ama/), [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), Hong Kong, China, 2022--2023.
 - Research Assistant at the [Department of Applied Mathematics](https://www.polyu.edu.hk/ama/), [The Hong Kong Polytechnic University](https://www.polyu.edu.hk), Hong Kong, China, 2019.

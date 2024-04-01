@@ -10,11 +10,6 @@ name = "Home"
 url = "/"
 weight = 1
 
-[[menus.main]]
-name = "Vita"
-url = "/documents/cv.pdf"
-weight = 2
-
 [params]
 customCSS = ["css/ragonneau.css"]
 description = "Tom M. Ragonneau's personal website"
@@ -43,24 +38,14 @@ visibility = ["list"]
 recent_num = 5
 
 [[params.widgets.social.custom]]
-title = "tom.ragonneau@polyu.edu.hk"
-url = "mailto:tom.ragonneau@polyu.edu.hk"
+title = "t.ragonneau@gmail.com"
+url = "mailto:t.ragonneau@gmail.com"
 icon = "svg/email.svg"
 
 [[params.widgets.social.custom]]
 title = "GitHub"
 url = "https://github.com/ragonneau"
 icon = "svg/github.svg"
-
-[[params.widgets.social.custom]]
-title = "ORCID"
-url = "https://orcid.org/0000-0003-2717-2876"
-icon = "svg/orcid.svg"
-
-[[params.widgets.social.custom]]
-title = "ResearchGate"
-url = "https://www.researchgate.net/profile/tom-ragonneau"
-icon = "svg/researchgate.svg"
 
 [[params.widgets.social.custom]]
 title = "LinkedIn"
