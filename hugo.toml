@@ -38,7 +38,7 @@ visibility = ["list"]
 recent_num = 5
 
 [[params.widgets.social.custom]]
-title = "t.ragonneau@gmail.com"
+title = "tom.ragonneau@gmail.com"
 url = "mailto:t.ragonneau@gmail.com"
 icon = "svg/email.svg"
 
