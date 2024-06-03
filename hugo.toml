@@ -19,8 +19,8 @@ post_meta = ["author", "date", "categories", "translations"]
 
 [params.logo]
 image = "img/ragonneau.png"
-title = "Tom M. Ragonneau"
-subtitle = "Postdoctoral Fellow"
+title = "Tom Ragonneau"
+subtitle = "HPC Innovation Engineer"
 
 [params.sidebar]
 home = "right"

@@ -7,11 +7,6 @@ draft: false
 
 This is a list of the talks I will give and have given, with the corresponding slides when available.
 
-## Future talks
-
-- [The 25th International Symposium on Mathematical Programming](https://ismp2024.gerad.ca/), Montréal, Canada, 2024.
-- [The 2nd Derivative-Free Optimization Symposium](https://sites.google.com/diag.uniroma1.it/dfos24), Padova, Italy, 2024.
-
 ## 2023
 
 - [COBYQA: a derivative‐free trust‐region SQP method for nonlinearly constrained optimization](/documents/talks/iciam2023.pdf). [The 10th International Congress on Industrial and Applied Mathematics](https://iciam2023.org/), Tokyo, Japan, 2023.
