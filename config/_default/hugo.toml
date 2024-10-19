@@ -1,6 +1,6 @@
 baseURL = "https://ragonneau.github.io/"
 title = "Tom Ragonneau"
 theme = "terminal"
-copyright = "Le contenu de ce site est sous licence <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 languageCode = "fr-FR"
 defaultContentLanguage = 'fr'
+copyright = "Sous licence <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>"

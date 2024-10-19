@@ -1,6 +1,8 @@
 languageName = "Français"
 
 [params]
-  updatedDatePrefix = "Actualisé"
+  readMore = "En savoir plus"
+  missingContentMessage = "Page non trouvée..."
+  missingBackButtonLabel = "Retour à la page d'accueil"
   minuteReadingTime = "min de lecture"
   words = "mots"
