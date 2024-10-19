@@ -1,0 +1,7 @@
+centerTheme = true
+showLastUpdated = true
+readingTime = true
+
+[logo]
+logoText = "Tom Ragonneau"
+logoHomeLink = "/"

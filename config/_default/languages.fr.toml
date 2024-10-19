@@ -1,0 +1,6 @@
+languageName = "Français"
+
+[params]
+  updatedDatePrefix = "Actualisé"
+  minuteReadingTime = "min de lecture"
+  words = "mots"

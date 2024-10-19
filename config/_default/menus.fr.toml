@@ -1,0 +1,9 @@
+[[main]]
+name = "Vitæ"
+url = "/vitae"
+weight = 1
+
+[[main]]
+name = "Blog"
+url = "/blog"
+weight = 2
