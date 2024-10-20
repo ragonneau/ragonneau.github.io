@@ -1,0 +1,9 @@
+* {
+    overflow-wrap: anywhere;
+}
+
+/* Horizontal scrollbar for long equations */
+.MathJax {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+}
