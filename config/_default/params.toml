@@ -1,5 +1,7 @@
+math = true
 centerTheme = true
 readingTime = true
+showLastUpdated = true
 
 [logo]
 logoText = "Tom Ragonneau"
