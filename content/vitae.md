@@ -3,6 +3,7 @@ title = "Vitæ"
 description = "Vitae"
 date = "2024-10-19"
 author = "Tom Ragonneau"
+hideComments = true
 +++
 
 # Expériences professionnelles
