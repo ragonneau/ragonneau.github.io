@@ -1,7 +1,7 @@
 +++
 title = "Monotonicity and continuity"
 date = "2024-01-26"
-lastmod = "2024-10-20"
+lastmod = "2024-12-23"
 author = "Tom Ragonneau"
 tags = ["Mathematics", "Topology", "Order"]
 description = "We show that a function is monotone if and only if it is continuous for some topology."
