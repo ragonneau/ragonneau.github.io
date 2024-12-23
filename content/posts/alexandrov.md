@@ -8,7 +8,7 @@ description = "We show that a function is monotone if and only if it is continuo
 +++
 
 In this post, we show that a function between two preordered sets is monotone if and only if it is continuous for some topology.
-This is a well-known result that we rediscovered during a discussion with my research group.
+This is a well-known result that we rediscovered during a discussion with Cunxin Huang, PolyUU.
 
 ## Preliminaries
 
