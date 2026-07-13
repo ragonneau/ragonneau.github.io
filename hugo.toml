@@ -1,5 +1,5 @@
-title = "Tom Ragonneau"
 baseURL = "https://ragonneau.github.io/"
+title = "Tom Ragonneau"
 locale = "en-us"
 theme = "hugo-coder"
 
@@ -10,6 +10,27 @@ description = "Tom Ragonneau's personal website"
 avatarurl = "images/ragonneau.jpg"
 colorScheme = "light"
 hideColorSchemeToggle = true
+
+[params.giscus]
+repo = "ragonneau/ragonneau.github.io"
+repoID = "R_kgDOTWgVog"
+category = "Announcements"
+categoryID = "DIC_kwDOTWgVos4DBGhT"
+mapping = "pathname"
+term = ""
+strict = "0"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "top"
+theme = "light_protanopia"
+lang = "en"
+loading = "lazy"
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
 
 [[params.social]]
 name = "LinkedIn"
@@ -28,15 +49,9 @@ target = "_blank"
 [[menu.main]]
 name = "About"
 weight = 1
-url = "about/"
+url = "/about/"
 
 [[menu.main]]
 name = "Projects"
 weight = 2
-url = "projects/"
-
-[taxonomies]
-category = "categories"
-series = "series"
-tag = "tags"
-author = "authors"
+url = "/projects/"
