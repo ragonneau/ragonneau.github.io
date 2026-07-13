@@ -1,0 +1,42 @@
+title = "Tom Ragonneau"
+baseURL = "https://ragonneau.github.io/"
+locale = "en-us"
+theme = "hugo-coder"
+
+[params]
+author = "Tom Ragonneau"
+info = "HPC & AI Engineer"
+description = "Tom Ragonneau's personal website"
+avatarurl = "images/ragonneau.jpg"
+colorScheme = "light"
+hideColorSchemeToggle = true
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 1
+url = "https://fr.linkedin.com/in/tom-ragonneau"
+target = "_blank"
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 2
+url = "https://github.com/ragonneau"
+target = "_blank"
+
+[[menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[menu.main]]
+name = "Projects"
+weight = 2
+url = "projects/"
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
