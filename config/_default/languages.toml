@@ -1,0 +1,21 @@
+[en]
+  label = ":uk:"
+  weight = 1
+  title = "Tom Ragonneau"
+  contentDir = "content/en"
+
+  [en.params]
+    author = "Tom Ragonneau"
+    info = "HPC & AI Engineer"
+    description = "Tom Ragonneau's personal website"
+
+[fr]
+  label = ":fr:"
+  weight = 2
+  title = "Tom Ragonneau"
+  contentDir = "content/fr"
+
+  [fr.params]
+    author = "Tom Ragonneau"
+    info = "Ingénieur HPC & IA"
+    description = "Site personnel de Tom Ragonneau"

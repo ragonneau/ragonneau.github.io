@@ -1,0 +1,10 @@
+baseURL = "https://ragonneau.com/"
+theme = "hugo-coder"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"

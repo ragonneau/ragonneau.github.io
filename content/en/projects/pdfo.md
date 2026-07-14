@@ -11,16 +11,16 @@ categories = [
 ]
 tags = [
   "Applied Mathematics",
-  "Optimization",
+  "Optimisation",
   "Python",
   "MATLAB",
   "Fortran",
 ]
 +++
 
-**PDFO** (Powell's Derivative-Free Optimization solvers) is an open-source, high-performance interface that wraps the legendary derivative-free optimization solvers developed by Professor M. J. D. Powell. Rather than a reimplementation, PDFO serves as a cross-platform wrapper around the original, highly optimized Fortran backends, making them natively accessible to modern computing environments.
+**PDFO** (Powell's Derivative-Free Optimisation solvers) is an open-source, high-performance interface that wraps the legendary derivative-free optimisation solvers developed by Professor M. J. D. Powell. Rather than a reimplementation, PDFO serves as a cross-platform wrapper around the original, highly optimised Fortran backends, making them natively accessible to modern computing environments.
 
-PDFO aims at solving general nonlinear optimization problems of the form:
+PDFO aims at solving general nonlinear optimisation problems of the form:
 
 $$\min_{x \in \mathcal{X}} \quad f (x)$$
 
